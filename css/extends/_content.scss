@@ -1,0 +1,24 @@
+$color_border: #9a9a9a;
+
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+  border: 2px solid $color_border;
+  height: 100%;
+  float: left;
+
+  .block-item {
+    &__row {
+      float: left;
+      width: 100%;
+    }
+    &__cell {
+      float: left;
+      //width: 12%;
+      //border: 1px solid $color_border;
+      //margin-left: -1.5px;
+      //margin-right: -1.5px;
+    }
+  }
+}
